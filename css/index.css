@@ -1,0 +1,85 @@
+html{
+
+}
+
+
+
+.banner{
+  background-image: url('../sources/cine-fondo2.jpg');
+  background-size: cover;
+  height: 100vh;
+  padding-top: 80px;
+}
+.otro{
+  height: 400px;
+}
+
+.menu{
+  opacity: 0.8;
+  border-radius: 10%;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+.navbar{
+  opacity: 0.7;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+}
+
+.lista_obras_cine{
+  color: white;
+  padding-top: 50px;
+}
+
+.image{
+  background-size: cover;
+}
+
+.carrElem{
+  max-height: 12rem;
+}
+.itemImage:hover{
+  cursor: pointer;
+  opacity: 0.6;
+  position: relative;
+  height: 102%;
+  bottom: 0.5rem !important;
+}
+
+
+.carousel-control-prev{
+
+  width: 30px;
+  left: -2rem;
+}
+.carousel-control-next{
+
+  width: 30px;
+  right: -2rem;
+}
+
+.ms-6 {
+  margin-left: 10rem !important;
+}
+
+.carousel-indicators{
+  bottom: -3rem;
+}
+
+
+
+@media (max-width: 992px) {
+  .ms-6 {
+    margin-left: 3rem !important;
+  }
+@media (max-width: 768px) {
+  .ms-6 {
+    margin-left: 0.5rem !important;
+  }
+  .lista_obras_cine{
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,42 @@
+.iconoSilla{
+  height: 30px;
+  width: 30px;
+}
+
+.iconoSilla:hover{
+  cursor: pointer;
+  filter: brightness(1.75);
+}
+
+.disponible:hover{
+  opacity: 0.6;
+}
+
+.imagen-sala{
+  height: 16rem;
+  width: 10rem;
+}
+td{
+  background-color: black;
+}
+.contenedor{
+  width: 20rem;
+  margin: 5rem auto 2rem auto;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+
+}
+#reservar{
+  background-color: #aa00aa;
+  color: white;
+  font-weight: bold;
+}
+table{
+  margin: 2rem auto;
+}
+
+body{
+  background: rgb(34,34,34);
+  background: linear-gradient(90deg, rgba(10,10,10,1) 0%, rgba(0,0,0,1) 28%, rgba(0,0,0,1) 72%, rgba(10,10,10,1) 100%);
+}
